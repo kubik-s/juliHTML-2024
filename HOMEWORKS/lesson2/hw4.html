@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hw4</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            margin: 0;
+        }
+        .flex{
+            width: 600px;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #96efe1;
+        }
+
+        .title{
+            width: 500px;
+            height: 100px;
+            display: flex;
+            font-size: 70px;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+        .colorSet{
+            width: 500px;
+            height: 100px;
+            display: flex;
+            justify-content:space-evenly;
+        }
+        .color{
+            width: 90px;
+            height: 75px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+           text-align: center;
+            border-radius: 2px;
+            border: 1px solid black;
+            box-shadow: 2px 6px 5px 0 rgba(0,0,0,0.75);
+            -webkit-box-shadow: 2px 6px 5px 0 rgba(0,0,0,0.75);
+            -moz-box-shadow: 2px 6px 5px 0 rgba(0,0,0,0.75);;
+        }
+        p{
+            margin: 0;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+<div class="flex">
+    <div class="title"><h4>HTML Colors</h4></div>
+
+
+    <div class="colorSet">
+        <div class="color" style="background-color: black"><p>Black</p><p>#000000</p></div>
+        <div class="color" style="background-color: red"><p>Red</p><p>#FF0000</p></div>
+        <div class="color" style="background-color: green"><p>Green</p><p>#00FF00</p></div>
+        <div class="color" style="background-color: blue"><p>Blue</p><p>#0000FF</p></div>
+        <div class="color" style="background-color: fuchsia"><p>Fuchsia</p><p>#FF00FF</p></div>
+    </div>
+
+
+    <div class="colorSet">
+        <div class="color" style="background-color: white"><p style="color: black">White</p><p style="color: black">#FFFFFF</p></div>
+        <div class="color" style="background-color: yellow"><p style="color: black">Yellow</p><p style="color: black">#FFFF00</p></div>
+        <div class="color" style="background-color: purple"><p>Purple</p><p>#800080</p></div>
+        <div class="color" style="background-color: maroon"><p>Maroon</p><p>#800000</p></div>
+        <div class="color" style="background-color: olive"><p>Olive</p><p>#808000</p></div>
+    </div>
+
+</div>
+
+
+</body>
+</html>
