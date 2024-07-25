@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100vw;
+    height: 20vh;
+    background-color: #D9D9D9;
+}
+div{
+    display: flex;
+    height: 60vh;
+}
+section{
+    width: 27vw;
+    height:60vh;
+    background-color: #C0BDBD;
+}
+main{
+    width: 46vw;
+    height: 60vh;
+    background-color:#A4A4A4;
+
+}
+footer{
+    width: 100vw;
+    height: 20vh;
+    background-color: #D9D9D9;
+}

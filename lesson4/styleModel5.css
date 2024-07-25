@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100vw;
+    height: 5vh;
+    background-color: #D9D9D9;
+}
+.flex{
+    width: 100vw;
+    height: 74vh;
+    display: flex;
+}
+main{
+    width: 60vw;
+    height: 74vh;
+    background-color:#A4A4A4 ;
+}
+article{
+    width: 40vw;
+    height: 74vh;
+    display: flex;
+    flex-direction: column;
+}
+.art1 {
+    width: 40vw;
+    height: 40vh;
+    background-color: #7F7A7A; ;
+}
+.art2{
+    width: 40vw;
+    height: 34vh;
+    background-color:#615050 ;
+    }
+
+address{
+    width: 100vw;
+    height: 10vh;
+    background-color: #D9D9D9;
+}
+footer{
+    width: 100vw;
+    height: 11vh;
+    background-color:#AFA9A9 ;
+}
